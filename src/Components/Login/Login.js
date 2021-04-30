@@ -16,7 +16,9 @@ import './Login.css'
       <div className="LoginModule">
         <div><input placeholder = '  Name' className = 'JoinInput upper'  type="text" onChange={(event) => setName(event.target.value)}/></div>
         <div><input placeholder = '  Password' className = 'JoinInput' type="text" onChange={(event) => setName(event.target.value)}/></div>
+        <Link to={'/Dashboard'}>
         <Button variant="outline-danger" >Login</Button>
+        </Link>
         <p>New here? <a href = "#">Sign up</a></p>
       </div>
       </div>
