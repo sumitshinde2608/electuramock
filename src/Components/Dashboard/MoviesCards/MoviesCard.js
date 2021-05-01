@@ -8,14 +8,12 @@ import './moviescard.css';
 import {
   FacebookMessengerShareButton,
   WhatsappShareButton,
-  InstapaperShareButton,
   TelegramShareButton
 } from "react-share"
 
 import {FaFacebookMessenger} from 'react-icons/fa'
 import {FaWhatsapp} from 'react-icons/fa'
 import {FaTelegramPlane} from 'react-icons/fa'
-// import ShareBtn from 'react-share-button';
 
 const Cards = (props) => {
      const { name, Bio, id} = props
