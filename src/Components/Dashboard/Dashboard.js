@@ -1,10 +1,15 @@
 import React from 'react'
-
+import Navbar from './Navbar/Navbar'
+import Cards from  './MoviesCards/MoviesMainComponent'
+import './Dashboard.css'
 
 const Dashboard = () => {
     return(
-    <div>
-        <h1>Sumit</h1>
+    <div className="OuterContainer"> 
+        <Navbar position="fixed"/>
+        <div className="cards">
+        <Cards/>
+        </div>
     </div>
     );
 }  

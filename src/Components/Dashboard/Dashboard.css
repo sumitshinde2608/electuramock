@@ -1,0 +1,8 @@
+.OuterContainer {
+	background-color: #2f363d;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+}
